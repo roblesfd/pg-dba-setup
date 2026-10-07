@@ -1,0 +1,1 @@
+-- Consultas y operaciones de laboratorio sobre dvdrental.

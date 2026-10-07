@@ -53,3 +53,11 @@ Las contraseñas no se almacenan en scripts ni en Git.
 
 Los privilegios se asignarán siguiendo el principio de mínimo privilegio.
 
+## Permisos sobre dvdrental
+
+| Rol | Base | Esquema | Tablas |
+|---|---|---|---|
+| admin | CONNECT | USAGE | Administración |
+| app_readwrite | CONNECT | USAGE | SELECT, INSERT, UPDATE, DELETE |
+| app_readonly | CONNECT | USAGE | SELECT |
+| backup_user | CONNECT | - | Según necesidades de backup |
